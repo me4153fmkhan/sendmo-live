@@ -4,8 +4,13 @@ sendmo-live Assignment
 To install locally:
 
 git clone https://github.com/me4153fmkhan/sendmo-live
+
 cd sendmo-live
+
 pip3 install --user -r requirements.txt
+
+If everything goes well, access it at http://127.0.0.1:5080 
+
 
 Sendmo Live Testing Scenario
 
