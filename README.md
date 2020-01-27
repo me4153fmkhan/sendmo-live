@@ -1,8 +1,15 @@
 # sendmo-live
 sendmo-live Assignment
+
+To install locally:
+
+git clone https://github.com/me4153fmkhan/sendmo-live
+cd sendmo-live
+pip3 install --user -r requirements.txt
+
 Sendmo Live Testing Scenario
 
-Sendmo is a handy app written in python and Flask to share messages between users of a startup. Here’s the cast of characters:
+Sendmo Live is a handy app written in python and Flask to share messages between users of a startup. Here’s the cast of characters:
 
 1. Tim - is the Sr. developer 
 2. Elliot - is a junior developer
