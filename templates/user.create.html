@@ -5,7 +5,7 @@
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center" style="max-width: 400px">
 
-    {% if g.session.username == admin %}
+    {% if g.session.username == 'admin' %}
     <form method="POST" class="w3-padding-32">
       <div class="w3-section">
         <label><b>Username</b></label>
@@ -17,9 +17,11 @@
         <button class="w3-button w3-block w3-black w3-section w3-padding" type="submit">Create</button>
       </div>
     </form>
+    {% else %}
+    <p class="w3-left-align"><a href="/user/login">Sorry, you must be an admin to create users.</a></p>
     {% endif %}
 
-    <p class="w3-left-align"><a href="/user/login">Login</a></p>
+    <p class="w3-left-align"><a href="/user/login">Click here to login</a></p>
 
   </div>
 </div>

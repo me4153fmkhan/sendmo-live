@@ -12,7 +12,7 @@ from mod_mfa import mod_mfa
 from mod_posts import mod_posts
 from mod_user import mod_user
 
-app = Flask('sendmo-live')
+app = Flask('vulpy')
 app.config['SECRET_KEY'] = 'aaaaaaa'
 
 app.register_blueprint(mod_hello, url_prefix='/hello')
